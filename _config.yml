@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Tufan Ghosh"
 title_separator          : "-"
 name                     : &name "Tufan Ghosh"
@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  name             : "Tufan Ghosh"
+  pronouns         : "He/His" # example: "she/her"  
+  bio              : "Researcher"
+  location         : "Stuttgart, Germany"
+  employer         : "University of Stuttgart"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "tufan.ghosh[at]ians[dot]uni-stuttgart[dot]de" 
 
   # Academic websites
   academia         : # URL
