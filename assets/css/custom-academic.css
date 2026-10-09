@@ -1,0 +1,44 @@
+/* Tufan Ghosh — modern academic layer for the existing Academic Pages theme.
+   No third-party CSS framework and no changes to the Jekyll collections. */
+:root {--tg-navy:#14273d;--tg-ink:#22354b;--tg-muted:#586c7d;--tg-teal:#087e88;--tg-teal-dark:#006872;--tg-border:#dfebef;--tg-mist:#f3f9f9;--tg-white:#fff;--tg-radius:18px;--tg-shadow:0 16px 40px rgba(23,61,76,.075)}
+html{scroll-behavior:smooth}body{background:#fcfefe;color:var(--tg-ink);-webkit-font-smoothing:antialiased}
+a{transition:color .18s ease,background-color .18s ease,box-shadow .18s ease,transform .18s ease}
+.masthead{background:rgba(255,255,255,.96);border-bottom:1px solid var(--tg-border);box-shadow:0 2px 16px rgba(24,58,80,.025)}
+.masthead__inner-wrap{max-width:1320px;padding-top:1.05em;padding-bottom:1.05em}
+.greedy-nav{background:transparent}.greedy-nav .site-title{font-size:1.18rem;letter-spacing:-.045em;font-weight:800;color:var(--tg-navy)}
+.greedy-nav a{color:var(--tg-ink)}.greedy-nav .visible-links a{font-size:.83rem;font-weight:650}.greedy-nav .visible-links a:before{background:var(--tg-teal);height:3px}
+#main{max-width:1320px;margin-top:1.65rem}.page{padding-right:0}.page__inner-wrap{background:transparent}
+.page__title{font-size:clamp(2rem,3vw,2.6rem);font-weight:800;letter-spacing:-.05em;color:var(--tg-navy);margin-bottom:.8em}
+.page__content{font-size:1rem;line-height:1.8;color:var(--tg-ink)}
+.page__content h2{font-size:1.44rem;font-weight:780;letter-spacing:-.035em;color:var(--tg-navy);padding:0 0 .55rem;margin:2.3rem 0 1rem;border-bottom:1px solid var(--tg-border)}
+.page__content h3{color:var(--tg-navy)}.page__content a{color:var(--tg-teal-dark);text-decoration-color:#91c9c9;text-underline-offset:3px}.page__content a:hover{color:#064f57}
+.sidebar{opacity:1}.sidebar .author__avatar img{border:4px solid white;box-shadow:0 8px 26px #173b541c;max-width:176px}.sidebar .author__name{color:var(--tg-navy);font-weight:800;letter-spacing:-.03em}.sidebar .author__bio{line-height:1.6;color:var(--tg-muted)}
+.sidebar .author__urls li{margin-bottom:.25rem}.sidebar .author__urls a{color:var(--tg-ink)}
+.page__footer{background:#f2f7f8;color:var(--tg-muted);border-top:1px solid var(--tg-border)}
+.page__footer a{color:var(--tg-teal-dark)}
+.tg-hero{position:relative;overflow:hidden;border-radius:24px;margin:0 0 2.4rem;padding:3.4rem 3.2rem;background:radial-gradient(circle at 90% 0%,#d1e9e8 0,transparent 34%),linear-gradient(128deg,#edf8f7,#f8fbff 68%,#fff);border:1px solid #d5e9ea}
+.tg-hero:after{content:"";position:absolute;right:-4rem;bottom:-8rem;width:18rem;height:18rem;border:1.25rem solid rgba(9,121,132,.055);border-radius:50%;pointer-events:none}
+.tg-kicker{font-size:.72rem;font-weight:850;letter-spacing:.15em;text-transform:uppercase;color:var(--tg-teal-dark)}
+.tg-hero h1{margin:.65rem 0 .8rem;font-size:clamp(2.5rem,5.3vw,4.15rem);font-weight:830;line-height:1.11;letter-spacing:-.064em;color:var(--tg-navy);border:0}
+.tg-hero .tg-native{font-size:.37em;font-weight:550;color:var(--tg-muted);letter-spacing:0;white-space:nowrap}
+.tg-hero p{max-width:40rem;color:#415a6c;font-size:1.13rem;line-height:1.7;margin:0}.tg-hero strong{color:var(--tg-navy)}
+.tg-actions{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:1.8rem;position:relative;z-index:1}
+.tg-button{display:inline-flex;align-items:center;gap:.45rem;border:1px solid var(--tg-teal-dark);background:var(--tg-teal-dark);color:#fff!important;border-radius:11px;padding:.75rem 1.12rem;font-size:.85rem;font-weight:750;text-decoration:none!important;box-shadow:0 6px 18px #087e881b}
+.tg-button:hover{background:#004f59;transform:translateY(-2px)}.tg-button--ghost{background:white;color:var(--tg-teal-dark)!important;border-color:#bfdcde;box-shadow:none}.tg-button--ghost:hover{background:#f3fcfc}
+.tg-strip{display:flex;flex-wrap:wrap;gap:.65rem;margin:-.75rem 0 2.2rem}.tg-chip{border:1px solid #dbe8e9;background:#fff;color:#426072;border-radius:999px;padding:.33rem .8rem;font-size:.75rem;font-weight:650}
+.tg-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.4rem 0 2.4rem}
+.tg-card{display:flex;flex-direction:column;min-height:218px;background:#fff;border:1px solid var(--tg-border);border-radius:var(--tg-radius);padding:1.5rem;text-decoration:none!important;color:var(--tg-ink)!important;box-shadow:0 5px 18px #12394b08}
+.tg-card:hover{transform:translateY(-4px);box-shadow:var(--tg-shadow);border-color:#b8dadc}.tg-card__num{font-size:.75rem;font-weight:800;letter-spacing:.13em;color:var(--tg-teal)}.tg-card h3{font-size:1.12rem;line-height:1.4;margin:.9rem 0 .4rem;font-weight:750}.tg-card p{font-size:.89rem;line-height:1.65;color:var(--tg-muted);margin:0}.tg-card__link{margin-top:auto;padding-top:1.1rem;font-size:.8rem;font-weight:800;color:var(--tg-teal-dark)}
+.tg-section-heading{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;flex-wrap:wrap}.tg-section-heading h2{flex:1}.tg-section-heading>a{font-size:.82rem;font-weight:760;text-decoration:none!important}
+.tg-pub,.publication-entry,.selected-publication{display:grid;grid-template-columns:4.3rem minmax(0,1fr);gap:1rem;padding:1.35rem 0;border-bottom:1px solid var(--tg-border)}
+.tg-year,.pub-year{display:inline-block;color:var(--tg-teal-dark);font-size:.76rem;font-weight:850;letter-spacing:.03em;padding-top:.12rem}
+.tg-pub h3,.publication-entry h3{font-size:1.02rem;line-height:1.5;font-weight:740;margin:0 0 .38rem}
+.tg-pub p,.publication-entry p{margin:.23rem 0;color:var(--tg-muted);font-size:.88rem;line-height:1.6}.tg-pub a,.publication-entry a{font-size:.85rem;font-weight:750;text-decoration:none!important}
+.page-lede{border-left:3px solid var(--tg-teal);border-radius:0 12px 12px 0;background:var(--tg-mist);padding:1.3rem 1.5rem;color:#496274;font-size:1.09rem;line-height:1.75;margin-bottom:1.8rem}
+.course-card{padding:1.5rem 1.65rem;border:1px solid var(--tg-border);border-radius:var(--tg-radius);background:#fff;margin:1rem 0;box-shadow:0 5px 18px #12394b08}
+.course-card h3{margin:.55rem 0;font-size:1.09rem}.course-card p{color:var(--tg-muted);font-size:.94rem;line-height:1.7;margin:.3rem 0}.course-term{font-size:.74rem;letter-spacing:.065em;color:var(--tg-teal-dark);font-weight:800}
+.tg-feature{border:1px solid var(--tg-border);border-radius:var(--tg-radius);background:#fff;padding:1.45rem 1.65rem;margin:1.15rem 0}.tg-feature h3{margin:.2rem 0 .5rem;font-size:1.16rem}.tg-feature p{margin:.25rem 0;color:var(--tg-muted);font-size:.95rem}
+.tg-contact{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.tg-contact .tg-feature{margin:0}
+@media(max-width:1050px){.tg-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tg-hero{padding:2.7rem 2.2rem}}
+@media(max-width:700px){.tg-grid,.tg-contact{grid-template-columns:1fr}.tg-card{min-height:auto}.tg-hero{padding:2.2rem 1.5rem;border-radius:17px}.tg-pub,.publication-entry,.selected-publication{grid-template-columns:3.4rem minmax(0,1fr);gap:.65rem}.tg-hero h1{font-size:clamp(2.2rem,9vw,3rem)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}a,.tg-card,.tg-button{transition:none!important}.tg-card:hover,.tg-button:hover{transform:none}}

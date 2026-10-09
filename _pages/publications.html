@@ -1,36 +1,41 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<div class="page-lede">Peer-reviewed journal articles, preprints, and software contributions.</div>
 
-{% include base_path %}
+[Google Scholar](https://scholar.google.com/citations?user=PS_CX0AAAAAJ)
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+## Journal articles
 
+<div class="publication-entry"><span class="pub-year">2026</span><div><h3>Local thermal non-equilibrium models in porous media: A comparative study of conduction effects</h3><p>Anna Mareike Kostelecky, Ivar Stefansson, Carina Bringedal, Tufan Ghosh, Helge K. Dahle, Rainer Helmig</p><p><em>Transport in Porous Media</em> · <a href="https://doi.org/10.1007/s11242-026-02305-5" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
 
+<div class="publication-entry"><span class="pub-year">2025</span><div><h3>A phase-field approach to model evaporation from porous media: Modeling and upscaling</h3><p>Tufan Ghosh, Carina Bringedal, Christian Rohde, Rainer Helmig</p><p><em>Advances in Water Resources</em> · <a href="https://doi.org/10.1016/j.advwatres.2025.104922" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
 
+<div class="publication-entry"><span class="pub-year">2022</span><div><h3>Numerical investigation of spontaneous imbibition in an anisotropic reservoir</h3><p>Tufan Ghosh, Yashwanth Kumar Gujjala, Debasis Deb, G. P. Raja Sekhar</p><p><em>Geomechanics and Geophysics for Geo-Energy and Geo-Resources</em> · <a href="https://doi.org/10.1007/s40948-022-00411-4" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
+
+<div class="publication-entry"><span class="pub-year">2020</span><div><h3>Upscaled equations for two-phase flow in highly heterogeneous porous media: Varying permeability and porosity</h3><p>Tufan Ghosh, Carina Bringedal, Rainer Helmig, G. P. Raja Sekhar</p><p><em>Advances in Water Resources</em> · <a href="https://doi.org/10.1016/j.advwatres.2020.103716" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
+
+<div class="publication-entry"><span class="pub-year">2020</span><div><h3>Non-classical flow modeling of spontaneous imbibition in spatially heterogeneous reservoirs</h3><p>Tufan Ghosh, Debasis Deb, G. P. Raja Sekhar</p><p><em>Computational Geosciences</em> · <a href="https://doi.org/10.1007/s10596-020-09967-0" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
+
+<div class="publication-entry"><span class="pub-year">2020</span><div><h3>A note on Mellin-Fourier integral transform technique to solve Stokes’ problem analogue to flow through a composite layer of free flow and porous medium</h3><p>Tufan Ghosh, G. P. Raja Sekhar</p><p><em>Journal of Mathematical Analysis and Applications</em> · <a href="https://doi.org/10.1016/j.jmaa.2019.123578" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
+
+<div class="publication-entry"><span class="pub-year">2019</span><div><h3>Modeling of Co-current Spontaneous Imbibition Oil Recovery from Partially Covered Homogeneous Hydrocarbon Reservoir</h3><p>Tufan Ghosh, G. P. Raja Sekhar, Debasis Deb</p><p><em>Transport in Porous Media</em> · <a href="https://doi.org/10.1007/s11242-019-01349-0" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
+
+<div class="publication-entry"><span class="pub-year">2019</span><div><h3>Mathematical modeling of co-current spontaneous imbibition in heterogeneous porous medium</h3><p>Tufan Ghosh, G. P. Raja Sekhar, Debasis Deb</p><p><em>European Journal of Mechanics / B Fluids</em> · <a href="https://doi.org/10.1016/j.euromechflu.2019.02.004" target="_blank" rel="noopener noreferrer">DOI ↗</a></p></div></div>
+
+## Preprints
+
+<div class="publication-entry"><span class="pub-year">2021</span><div><h3>A phase-field approach to model evaporation in porous media: Upscaling from pore to Darcy scale</h3><p>Tufan Ghosh and Carina Bringedal</p><p><em>arXiv preprint</em> · <a href="https://arxiv.org/abs/2112.13104">arXiv ↗</a></p></div></div>
+
+## Software contributions
+
+Contributions to the open-source **DuMux** framework:
+
+- [DuMux 3.10.0 (2025)](https://doi.org/10.18419/DARUS-4975)
+- [DuMux 3.9.0 (2024)](https://doi.org/10.18419/darus-4351)
+- [DuMux 3.8.0 (2023)](https://doi.org/10.18419/darus-3788)
+- [DuMux 3.7.0 (2023)](https://doi.org/10.18419/darus-3405)
