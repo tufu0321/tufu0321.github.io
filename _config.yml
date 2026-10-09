@@ -30,19 +30,19 @@ author:
   location         : "Stuttgart, Germany"
   employer         : "University of Stuttgart"
   url              : # URL
-  email            : "tufan.ghosh@iws.uni-stuttgart.de"
+  email            : "tufan.ghosh@mathematik.uni-stuttgart.de"
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.co.in/citations?hl=en&pli=1&user=gmvA5j8AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : 
+  orcid            : "https://orcid.org/0000-0003-4164-1501"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : 
-  researchgate     : # URL
+  pubmed           : # URL
+  researchgate     : "https://www.researchgate.net/profile/Tufan-Ghosh"
   scopus           : # URL
   zotero           : # URL
 
